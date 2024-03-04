@@ -1,8 +1,13 @@
 #include <Stepper.h>
 
-const int STEPSPERREVOLUTION = 2038;
+const int STEPSPERREVOLUTION = 2048;
 
-Stepper stepper = Stepper(STEPSPERREVOLUTION, 8, 10, 9, 11);
+const int IN1 = 8;
+const int IN2 = 9;
+const int IN3 = 10;
+const int IN4 = 11;
+
+Stepper stepper = Stepper(STEPSPERREVOLUTION, IN1, IN3, IN2, IN4);
 
 unsigned long previousMillis = 0;
 
