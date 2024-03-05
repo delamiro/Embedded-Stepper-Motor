@@ -2,8 +2,8 @@ void serialSetup() {
   Serial.begin(9600);
 }
 
-char serialRead() {
+int serialRead() {
   if (Serial.available() > 0) {
-    return Serial.read();
+    return Serial.parseInt();
   }
 }
