@@ -1,5 +1,11 @@
 #include <Stepper.h>
 
+/*
+https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/#gear-reduction-ratio
+32 steps per revolution
+32/9 * 22/11 * 27/9 * 24/8 = 63.99 ≈ 64
+32 * 64 == 2048
+*/
 const int STEPSPERREVOLUTION = 2048;
 
 const int IN1 = 8;
