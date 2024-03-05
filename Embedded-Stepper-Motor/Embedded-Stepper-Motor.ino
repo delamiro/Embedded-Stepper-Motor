@@ -1,8 +1,8 @@
 void setup() {
+  serialSetup();
   stepMotorSetup();
-  stepMotorRun();
 }
 
 void loop() {
-  //stepMotorRun();
+  stepMotorRun(serialRead() - '0');
 }
