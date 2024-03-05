@@ -13,7 +13,7 @@ void loop() {
   switch (stepMotorState) {
     case STALL:
       rotations = serialRead();
-      if (rotations > 0 && rotations < 10)
+      if (!isalpha(rotations))
         stepMotorState = ROTATE;
       break;
     case ROTATE:
