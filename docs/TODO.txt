@@ -1,0 +1,9 @@
+Drop-model
+code
+Powerpoint
+
+1 DROP-model perpersoon
+2 Leerdoelen aparte slide in de Powerpoint
+3 2 verschillende Tabellen	[1/2]
+3 verschillede stepper motors
+3 motors (Servo en DC)
