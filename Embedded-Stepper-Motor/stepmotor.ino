@@ -9,16 +9,10 @@ const int IN4 = 11;
 
 Stepper stepper = Stepper(STEPSPERREVOLUTION, IN1, IN3, IN2, IN4);
 
-unsigned long previousMillis = 0;
-
 void stepMotorSetup() {
   stepper.setSpeed(5);
 }
 
-void stepMotorRun() {
-  unsigned long currentMillis = millis();
-  if (currentMillis - previousMillis >= 1000) {
-    previousMillis = currentMillis;
-    stepper.step(STEPSPERREVOLUTION);
-  }
+void stepMotorRun(const int rotations) {
+  stepper.step(STEPSPERREVOLUTION * rotations);
 }
