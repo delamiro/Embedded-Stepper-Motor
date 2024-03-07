@@ -1,0 +1,9 @@
+1. DROP-model invullen
+2. Leerdoelen aparte slide in presentatie
+3. 2 verschillende tabellen	[1/2]
+4. Verschillende stepper motors
+
+In te leveren per persoon:
+	- Presentatie
+	- Code
+	- DROP-model

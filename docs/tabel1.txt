@@ -1,0 +1,7 @@
+
+	Motor	Draaihoek	Efficientie
+	Stepper	Volledig	Laag
+	DC	Volledig	Gemiddeld
+	Servo	Beperkt		Gemiddeld
+
+	https://opencircuit.nl/list/dc-motoren

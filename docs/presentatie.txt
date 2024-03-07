@@ -1,0 +1,25 @@
+Aan de hand van het beoordelingsmodel:
+
+[werking]
+	De stepper motor werkt door middel van magneten die de motor steeds
+	stap voor stap kan laten bewegen
+		(https://opencircuit.nl/list/dc-motoren)
+
+[toepassingen]
+	Doordat een stepper motor heel nauwkeurig werkt kan het o.a. worden
+	gebruikt in 3D printers en medische apparatuur
+		(https://www.seeedstudio.com/blog/2019/04/01/choosing-the-right-motor-for-your-project-dc-vs-stepper-vs-servo-motors/)
+
+[alt. hardwaresoorten]
+	TODO
+
+[alt. hardwareversies]
+	TODO
+
+[onderzoeksmethoden]
+	(https://ictresearchmethods.nl/)
+	Library - Literature study
+	Lab - Component test
+	
+	Weet ik niet zeker:
+		Workshop - Prototyping
