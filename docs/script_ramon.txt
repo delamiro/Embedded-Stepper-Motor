@@ -1,0 +1,38 @@
+[intro]
+	Mijn naam is Ramon Bijl en mijn leerdoel voor vandaag is om iets
+	dynamischer te staan presenteren.
+
+[inleiding]
+	Goed, dan zal ik nu een korte inleiding geven over de onderwerpen
+	die aan bod komen.
+		- We gaan het hebben over wat een stepper motor is en de
+		toepassingen daarvan.
+		- Daarna volgt er een demonstratie zo dat je kunt zien hoe
+		een stepper motor werkt en de hardware architectuur wordt
+		toegelicht
+		- Vervolgens zullen we 2 vergelijkingen laten zien tussen
+		verschillende type motors en stepper motors.
+		- En daarna volgt de conclusie en is er aan het einde nog
+		ruimte om vragen te stellen.
+
+[demonstratie]
+	...
+
+[hardware architectuur]
+	Links zien we hoe de stepper motor is aangesloten op de Arduino,
+	tussen de Arduino en stepper motor is er een zogehete driver
+	aangesloten die ervoor zorgt dat de stepper motor genoeg stroom
+	krijgt, de driver is namelijk verbonden met een baterij.
+
+[vergelijking #1]
+	Dan hebben we nog een aantal vergelijkingen tussen verschillende
+	type motors.
+	De stepper motor heeft een volledige draaihoek en een lage
+	efficientie, dat had je misschien al kunnen raden omdat er een extra
+	batterij aan de opstelling is aangesloten.
+	De DC motor heeft ook een volledige draaihoek en een gemiddelde
+	efficientie.
+	Dan hebben we tot slot nog de servo motor met een beperkte draaihoek
+	en gemiddelde efficientie. Een servo motor is overigens eigenlijk
+	niet een motor opzichzelf maar meestal een motor met een combinatie
+	van andere hardware
