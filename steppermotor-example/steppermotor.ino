@@ -16,7 +16,7 @@ const int IN4 = 11;
 Stepper stepper = Stepper(STEPSPERREVOLUTION, IN1, IN3, IN2, IN4);
 
 void stepperMotorSetup() {
-  stepper.setSpeed(5);
+  stepper.setSpeed(15);
 }
 
 void stepperMotorRun(const int rotations) {
